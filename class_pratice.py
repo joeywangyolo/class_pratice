@@ -36,12 +36,15 @@ a_sofa = Sofa('黑色','皮革')
 
 b_sofa = Sofa('紅色','金屬')
 
+c_sofa = Sofa('白色','塑膠')
+
 a_sofa.seat()
 b_sofa.seat()
+c_sofa.seat()
 b_sofa.lie_down()
 
 a_chair = Chair('紅色')
-
+c_chair = Chair('白色')
 b_chair = Chair('綠色')
 
 
